@@ -19,7 +19,6 @@ final class MyViewModel : ObservableObject{
         openAi = OpenAI(
             Configuration(
                 organization: "Personal",
-//                apiKey: "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"
                 apiKey: ""
             )
         )
