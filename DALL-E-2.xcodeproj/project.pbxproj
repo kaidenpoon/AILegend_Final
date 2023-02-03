@@ -74,15 +74,14 @@
 		5EF6C8B12983EB200088DB19 /* DALL-E-2 */ = {
 			isa = PBXGroup;
 			children = (
+				ED8E39ED298CEA5500EA6585 /* View */,
 				5E0BD5AF29868E16001ED42D /* SavePhoto */,
 				5EF6C8C02983EB920088DB19 /* ViewModel */,
 				5EF6C8B22983EB200088DB19 /* DALL_E_2App.swift */,
-				5EF6C8B42983EB200088DB19 /* HomeView.swift */,
 				04280B9A298916C8004AEAA8 /* ActiveIndicator.swift */,
 				5E0BD5B0298694D5001ED42D /* SplashScreenView.swift */,
 				5EF6C8B62983EB210088DB19 /* Assets.xcassets */,
 				5EF6C8B82983EB210088DB19 /* Preview Content */,
-				EDC8AABA298BB53A007FCDA4 /* Home2.swift */,
 			);
 			path = "DALL-E-2";
 			sourceTree = "<group>";
@@ -101,6 +100,15 @@
 				5E0BD5A62986353D001ED42D /* ViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		ED8E39ED298CEA5500EA6585 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5EF6C8B42983EB200088DB19 /* HomeView.swift */,
+				EDC8AABA298BB53A007FCDA4 /* Home2.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
