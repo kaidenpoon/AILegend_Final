@@ -40,7 +40,6 @@ struct Home2: View {
                             VStack(spacing:10){
                                 Group {
                                     // top
-//                                    Image("Rectangle -\(randomInt())")
                                     Image("\(imgArr[1])")
                                         .resizable()
                                         .aspectRatio(contentMode: .fill)
